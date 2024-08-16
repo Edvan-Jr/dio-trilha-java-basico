@@ -1,18 +1,36 @@
-## Getting Started
+# DIO - Trilha Java Básico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+#### Autor
+[Edvan Miranda](https://github.com/Edvan-Jr)
 
-## Folder Structure
+## Sintaxe - Desafio
 
-The workspace contains two folders by default, where:
+Exercício do conteúdo apresentado no módulo de Sintaxe.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. Criei o projeto `ContaBanco`, que recebe dados via terminal contendo as características de conta em banco conforme atributos abaixo:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Atributo  | Tipo     | Exemplo   
+| --------- | ---------| ------- 
+| Numero    | Inteiro  | 1021 
+| Agencia   | Texto    | 067-8
+| Nome Cliente | Texto    | ED DEV
+| Saldo | Decimal |237.48
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. Dentro do projeto, criei a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
+3. Via terminal, o usuário recebe a mensagem de qual informação será solicitada, e insere os dados respectivos; por exemplo:
 
-## Dependency Management
+* Programa: "Digite a agência: "
+* Usuário: 1021 *(depois ENTER para o próximo campo)*
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Depois de todas as informações terem sido inseridas, o sistema exibe a seguinte mensagem:
+
+5. *"[Nome Cliente], obrigado por criar uma conta em nosso banco.
+     Sua agência é [Agencia], conta [Numero] e o seu saldo de [Saldo] já está disponível para saque."*
+   
+Os campos em [ ] corrrespndem às informações inseridas pelo usuário.
+
+### Conteúdos Aplicados
+
+#### regras de declaração de variáveis
+#### terminal, main args e a classe Scanner
+#### concatenação e classe String com método concat
