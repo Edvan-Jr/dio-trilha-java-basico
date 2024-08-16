@@ -29,8 +29,16 @@ Exercício do conteúdo apresentado no módulo de Sintaxe.
    
 Os campos em [ ] corrrespndem às informações inseridas pelo usuário.
 
+
 ### Conteúdos Aplicados
 
-#### regras de declaração de variáveis
-#### terminal, main args e a classe Scanner
-#### concatenação e classe String com método concat
+#### Regras de declaração de variáveis
+#### Terminal, main args e a classe Scanner
+#### Concatenação e classe String com método concat
+
+
+##### Dificuldades
+
+Aprender a esvaziar o buffer de entrada de dados, com o comando 'scanner.nextLine()', para corrigir falhas na entrada de dados;
+Aprender a usar a máscara de moeda para exibição do saldo na saída, com o java.text.NumberFormat.
+Obs: Lembrar de fechar o Scanner após o término do uso; e sugestão da IDE de refatoração "Convert to try-with-resources".
